@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  caddy:
+    image: caddy
+    restart: always
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./build:/html
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.chainanalysis.rule=Host(`web3.analyze.filcoin.xyz`)"
+      - "traefik.http.routers.chainanalysis.service=chainanalysis"
+      - "traefik.http.routers.chainanalysis.entrypoints=http01"
+      - "traefik.http.services.chainanalysis.loadbalancer.server.port=80"

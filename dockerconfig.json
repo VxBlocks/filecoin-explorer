@@ -1,0 +1,10 @@
+{
+    "auths": {
+        "harbor.filcoin.xyz:8080": {
+            "auth": "YWRtaW46N2c0aSZkbUxhVnQ2UHA="
+        },
+        "registry.filcoin.xyz:8900": {
+            "auth": "YWRtaW46eCZRWkNlZmtGVTR1VVI="
+        }
+    }
+}

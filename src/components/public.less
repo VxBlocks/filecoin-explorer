@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar_user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.css-navbar-drop_down{
+    text-align: center;
+    color: #1e1c1c;
+}
+.css-navbar-drop_down-select,.css-navbar-drop_down:hover {
+    text-align: center;
+    color: #2EBAC6;
+}
+
+.menubar_title {
+    background-color: #fff;
+    display: flex;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 96px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.ellipsis {
+    position: relative;
+    display: inline-block;
+    word-break: normal;
+    word-wrap: normal;
+    overflow: hidden;
+    line-height: 1;
+    width: 1em;
+    text-indent: 2em;
+}
+
+.ellipsis:after {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: currentColor;
+    box-shadow: -0.3em 0 currentColor, 0 0 currentColor, 0.3em 0 currentColor;
+}
+
+.small_pagination {
+    display: inline-flex;
+    .ant-pagination-item {
+        border-radius: 8px;
+        font-size: 12px;
+        display: inline-flex;
+        justify-content: center;
+        margin: 4px 0 !important;
+    }
+}
+
+.dialog{
+ min-width: 660px;  
+    p {
+      margin: 10px 0;
+  
+      em {
+        color: red;
+      }
+    }
+  }
+  

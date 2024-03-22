@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0.710925,1.65849)">
+        <g id="页面-1">
+            <g id="logo_daohang">
+                <path id="路径" d="M10.894,23.158C12.109,24.555 13.232,25.667 14.165,26.514L14.314,26.65C14.536,26.849 14.746,27.032 14.943,27.2L15.073,27.31C15.115,27.346 15.157,27.381 15.198,27.416L15.32,27.516C15.34,27.533 15.36,27.549 15.379,27.565L15.494,27.659C15.513,27.675 15.532,27.69 15.55,27.705L15.659,27.792L15.764,27.875L15.864,27.953L15.959,28.028L16.05,28.097L16.136,28.163L16.217,28.224L16.329,28.307L16.429,28.381L16.545,28.464L16.595,28.5L16.695,28.569L16.788,28.632L4.197,28.632L5.785,27.343L7.273,26.139L8.257,25.346L8.776,24.925L9.206,24.573L9.558,24.282L9.906,23.993L10.237,23.716L10.561,23.442L10.894,23.158Z" style="fill:url(#_Linear1);"/>
+                <path id="路径1" serif:id="路径" d="M0,0L0.047,0.051L0.142,0.154L0.233,0.252L0.345,0.371C0.386,0.414 0.431,0.461 0.478,0.511L0.631,0.672C2.94,3.078 11.14,11.184 17.866,12.338C20.037,12.521 22.873,12.617 25.737,12.663L26.257,12.67C26.691,12.677 27.125,12.681 27.556,12.685L28.073,12.69C28.158,12.69 28.244,12.691 28.33,12.692L28.841,12.695C29.01,12.696 29.179,12.696 29.347,12.697L29.849,12.698L30.344,12.699L30.832,12.699L31.549,12.698L32.015,12.697L32.472,12.695L32.918,12.692L33.352,12.69L34.182,12.683L34.575,12.68L34.954,12.676L35.317,12.672L35.829,12.666L36.591,12.656L37.442,12.642L37.947,12.633L38.192,12.628L38.19,12.627C29.941,16.33 22.679,21.831 16.904,28.63L16.906,28.632L16.86,28.599C16.85,28.592 16.839,28.585 16.827,28.576L16.742,28.515C15.207,27.392 4.429,18.943 0,0Z" style="fill:url(#_Linear2);"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-9.18377,0.560327,-0.560327,-9.18377,13.7817,25.7911)"><stop offset="0" style="stop-color:rgb(10,107,180);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(90,194,247);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(23.8515,3.07348,-3.07348,23.8515,4.81283,13.414)"><stop offset="0" style="stop-color:rgb(15,111,183);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(91,197,250);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

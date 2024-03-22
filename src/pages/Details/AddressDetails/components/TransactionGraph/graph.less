@@ -1,0 +1,270 @@
+.select-box {
+  display: grid;
+  grid-template-columns: 1.5fr 6fr;
+  align-items: center;
+  text-align: left;
+}
+
+.select-down,
+.select-down-ml {
+  flex: 1 1 50%;
+  width: 100%;
+}
+
+.select-down-ml {
+  margin-left: 12px;
+}
+
+.search_button,
+.save-graph,
+.monitor_button {
+  font-weight: 600;
+  border-radius: 4px;
+  height: 100%;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.graph_div_title {
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  line-height: 2rem;
+  border-bottom: 1px solid rgba(240, 246, 251);
+}
+
+.monitor_button {
+  line-height: inherit;
+}
+
+.search_button:hover,
+.monitor_button:hover {
+  border: 1px solid #ff4d4f;
+  background: #FF4D4F33;
+  color: #1427fa;
+}
+
+.transaction {
+  text-align: left;
+  font-size: 14px;
+
+  h2 {
+    font-weight: 500;
+    margin: 24px 0 12px;
+    font-size: 16px;
+  }
+}
+
+.graph_out_div {
+  position: relative;
+  overflow: hidden;
+  // text-align: center;
+  background: #fafafa;
+  //border: 1px solid #ebedf0;
+  min-height: 700px;
+  border-radius: 2px;
+  .graphin-core {
+    background: #fafafa !important;
+    canvas {
+      max-height: 1050px !important;
+    }
+  }
+}
+
+.graph_drawer {
+  // float: left;
+  width: 500px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  background: #61dafb;
+}
+
+.graph_drawer_expand {
+  // height: 80% !important;
+  margin: 8px 16px;
+  border-radius: 8px;
+  .addr_monitor {
+    // lineHeight: '24px', marginBottom: '12px', alignItems: "center"
+    line-height: 24px;
+    margin-bottom: 12px;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+  }
+  .ant-drawer-content-wrapper {
+    box-shadow: none;
+    border-radius: 8px;
+    height: fit-content;
+    // border: 1px solid #999999;
+  }
+
+  .ant-drawer-content-wrapper-hidden {
+    display: block;
+    width: 0 !important;
+    transition: none;
+    word-break: keep-all;
+    div {
+      overflow: hidden;
+    }
+  }
+
+  .ant-drawer-content {
+    border-radius: 8px;
+  }
+}
+
+.graph_canvas {
+  .graphin_core {
+    border: none !important;
+  }
+}
+
+.drawer-addr {
+  flex: auto;
+  width:auto;
+  h3 {
+    margin: 0;
+  }
+}
+
+.graph_stow-switch {
+  width: 20px;
+  height: 80px;
+  font-size: 18px;
+  position: absolute;
+  top: 45%;
+  left: -24px;
+  margin-top: 5px;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  cursor: pointer;
+  border-radius: 30px 0 0 30px;
+}
+
+.graph_drawer_content {
+  background: #999999;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: left;
+  display: block;
+  overflow: auto;
+  box-sizing: border-box;
+  flex-basis: auto;
+}
+
+.table {
+  border: #d5d5d5 1px solid;
+  padding: 4px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  .ant-table-cell {
+    padding: 2px 4px;
+  }
+  .ant-table-cell:before {
+    content: none !important;
+  }
+  .ant-table-thead {
+    .ant-table-cell {
+      background: #ffffff !important;
+    }
+  }
+  .ant-table-tbody {
+    .ant-table-cell {
+      border: none !important;
+    }
+  }
+}
+
+.drawer-transf-number {
+  text-decoration: underline;
+  color: rgb(250, 50, 50);
+  cursor: pointer;
+}
+
+.vis-network {
+  outline: none;
+}
+
+.tool-bar {
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #ccc;
+  background: #fff;
+  right: 40px;
+  top: 50%;
+  margin-top: -124px;
+  cursor: pointer;
+
+  .tool {
+    padding: 12px 14px;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+
+
+.transfer-dialog {
+  width: auto !important;
+  border-radius: 8px;
+
+  .ant-modal-body {
+    padding: 12px 30px 20px;
+  }
+
+  .ant-table-thead {
+    tr {
+      th {
+        padding: 8px 10px;
+        background: #fff;
+      }
+    }
+
+    >tr>th::before {
+      content: none !important;
+    }
+  }
+
+  .ant-table-tbody {
+    tr:nth-child(2n - 1) {
+      background: #fbfbfb;
+    }
+
+    tr>td {
+      padding: 8px 10px;
+    }
+  }
+}
+
+
+.save-graph {
+  background: #108CEE;
+  color: white;
+  padding: 4px 12px;
+  height: 36px;
+}
+
+.save-graph:hover {
+  background: #4ea5e8;
+  color: white;
+}
+
+.save-div {
+  .ant-col {
+    color: red;
+    font-size: 12px;
+    padding: 2px 0;
+    span{
+      color: #999999
+    }
+  }
+}
+
+.graph-tip {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+
+.loading {
+  max-height: none !important;
+}

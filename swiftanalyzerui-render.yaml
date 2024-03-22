@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: swiftanalyze
+  name: swiftanalyze
+  namespace: filexplorer
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: swiftanalyze
+  template:
+    metadata:
+      labels:
+        app: swiftanalyze
+        version: latest-prod
+    spec:
+      containers:
+        - image: registry.filcoin.xyz:8900/filexplorer/swiftanalyzeui:analyzer@sha256:04eb8fd0c7fbee15aa3686491f3eb3ede93a82c2f6829ff051b14b2f69534d05
+          name: swiftanalyze
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: swiftanalyze-http
+  name: swiftanalyze-http
+  namespace: filexplorer
+spec:
+  ports:
+    - appProtocol: http
+      name: http
+      port: 80
+  selector:
+    app: swiftanalyze
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: swiftanalyze-ingress
+  namespace: filexplorer
+spec:
+  rules:
+    - host: analyzer.imfil.io
+      http:
+        paths:
+          - backend:
+              service:
+                name: swiftanalyze-http
+                port:
+                  number: 80
+            path: /
+            pathType: Prefix

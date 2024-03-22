@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="超频模版" transform="translate(-357.000000, -435.000000)" fill="#4E5969" fill-rule="nonzero">
+            <g id="16px/线性/通用/icon-复制备份-2" transform="translate(357.000000, 435.000000)">
+                <path d="M10.5,5.5 L3.5,5.5 L3.5,12.5 L10.5,12.5 L10.5,5.5 Z M12,10.5 L12.5,10.5 L12.5,3.5 L5.5,3.5 L5.5,4 L11,4 C11.5522847,4 12,4.44771525 12,5 L12,10.5 Z M12,13 C12,13.5522847 11.5522847,14 11,14 L3,14 C2.44771525,14 2,13.5522847 2,13 L2,5 C2,4.44771525 2.44771525,4 3,4 L4,4 L4,3 C4,2.44771525 4.44771525,2 5,2 L13,2 C13.5522847,2 14,2.44771525 14,3 L14,11 C14,11.5522847 13.5522847,12 13,12 L12,12 L12,13 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

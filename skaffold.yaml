@@ -1,0 +1,24 @@
+apiVersion: skaffold/v2beta29
+kind: Config
+metadata:
+  name: swiftanalyze
+build:
+  tagPolicy:
+    envTemplate:
+      template: "{{ .BUILD_VERSION }}"
+  artifacts:
+    - image: registry.filcoin.xyz:8900/filexplorer/swiftanalyzeui
+      platforms: ["linux/amd64"]
+      docker:
+        noCache: false
+  
+
+#  local:
+#    useBuildkit: true
+#    useDockerCLI: true
+deploy:
+  kubectl:
+    manifests:
+      - swiftanalyzeui.yaml
+  statusCheck: true
+  statusCheckDeadlineSeconds: 300
